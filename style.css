@@ -12,11 +12,13 @@ body {
     background-repeat: no-repeat;
     background-size: 1470px;
     background-position: 10% 40%;
+    cursor: url(asset/Cursor/iconmonstr-fingerprint-20-32.png), auto;
 }
 
 html {
     scroll-behavior: smooth;
-}
+  }
+
 
 p {
     color:azure;
@@ -55,6 +57,7 @@ a {
 
 a:hover {
     color: bisque;
+    cursor: url(/asset/Cursor/iconmonstr-fingerprint-20-32.png), auto;
 }
 
 .logo {
@@ -64,7 +67,7 @@ a:hover {
 }
 
 .logo:hover {
-    cursor: default;
+    cursor: url(asset/Cursor/iconmonstr-fingerprint-20-32.png), auto;
 }
 
 /* SECTIONS */
@@ -136,6 +139,10 @@ section {
     height: 2rem;
 }
 
+.icon:hover {
+  cursor: url(asset/Cursor/fingerprint-20-32\ negativ.png), auto;
+}
+
 /* BUTTONS */
 
 .btn-container {
@@ -159,7 +166,7 @@ section {
   
   .btn-color-1:hover,
   .btn-color-2:hover {
-    cursor: pointer;
+    cursor: url(/asset/Cursor/iconmonstr-fingerprint-20-32.png), auto;
   }
   
   .btn-color-1,
@@ -319,6 +326,7 @@ section {
     justify-content: center;
     gap: 0.5rem;
     margin: 1rem;
+    
   }
   
   .contact-info-container p {
@@ -326,7 +334,7 @@ section {
   }
   
   .contact-icon {
-    cursor: default;
+    cursor: url(/asset/Cursor/iconmonstr-fingerprint-20-32.png);
   }
   
   .email-icon {
@@ -339,8 +347,12 @@ section {
     align-items: center;
     height: 26vh;
     margin: 0 1rem;
-  }
+    }
 
   footer p {
     text-align: center;
+  }
+
+  a.hover {
+    cursor: url(asset/Cursor/iconmonstr-fingerprint-20-32.png), auto;
   }
