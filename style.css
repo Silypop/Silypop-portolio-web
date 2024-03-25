@@ -11,7 +11,7 @@ body {
     background-image: url(./Img/element-graphic-01-home-page.png);
     background-repeat: no-repeat;
     background-size: 1470px;
-    background-position: 10% 22%;
+    background-position: 10% 40%;
 }
 
 html {
@@ -109,6 +109,13 @@ section {
     text-align: center;
     font-size: 1rem;
     margin-bottom: 1rem;
+}
+
+.section_text_p2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+
 }
 
 /* SECTION ICONS */
